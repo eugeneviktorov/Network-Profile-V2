@@ -1,0 +1,387 @@
+a{
+    color:inherit;
+    text-decoration:none;}
+
+html{scroll-behavior: smooth;}
+
+br{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */}
+
+.blackout_update{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:rgb(0, 0, 0);
+    z-index:99;
+    -webkit-animation:2s animation-fade forwards;
+    animation:1s animation-fade forwards;
+    pointer-events:none}
+
+@keyframes animation-fade{
+    0%{opacity:1}
+    to{opacity:0}}
+
+::-webkit-scrollbar{width: 10px;}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: #adadad;}
+
+.page{
+  height: 50px;
+  width: 22%;
+  margin-top: 5%;
+  margin-left: 37.5%;
+  margin-bottom: -3px; 
+  background-color: #FFF8F0;
+  border-radius: 20px 0px 0px 0px;
+  clip-path: polygon(0 0, 50% 0, 55% 100%, 0% 100%);}
+
+    @media (min-width:280px){
+        .page{
+            width: 100%;
+            margin-left: 0%;}}
+
+    @media (min-width:320px){
+        .page{
+            width: 90%;
+            margin-left: 5%;}}
+
+    @media (min-width:480px){
+        .page{
+            width: 70%;
+            margin-left: 15%;}}
+
+    @media (min-width:520px){
+        .page{
+            width: 60%;
+            margin-left: 17.5%;}}
+
+    @media (min-width:630px){
+        .page{
+            width: 60%;
+            margin-left: 20%;}}
+
+    @media (min-width:710px){
+        .page{
+            width: 50%;
+            margin-left: 22.5%;}}
+
+    @media (min-width:768px){
+        .page{
+            width: 45%;
+            margin-left: 25%;}}
+
+    @media (min-width:940px){
+        .page{
+            width: 40%;
+            margin-left: 30%;}}
+
+    @media (min-width:1300px){
+        .page{
+            width: 30%;
+            margin-left: 35%;}}
+
+    @media (min-width:1600px){
+        .page{
+            width: 25%;
+            margin-left: 37.5%;;}}
+
+    @media (min-width:2100px){
+        .page{
+            width: 20%;
+            margin-left: 39%;;}}
+
+    @media (min-width:2560px){
+        .page{
+            width: 15%;
+            margin-left: 42.5%;;}}
+
+    @media (min-width:3560px){
+        .page{
+            width: 10%;
+            margin-left: 46.5%;;}}
+
+.text_home{
+    color: #454545;
+    font-size: 30px;
+    margin-left: 5%;}
+
+    @media (min-width:280px){
+        .text_home{
+            font-size: 26px;}}
+
+    @media (min-width:520px){
+        .text_home{
+            font-size: 30px;}}
+
+.square{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 0 20px 20px 20px;
+    background: #FFF8F0;}
+
+    @media (min-width:280px){
+        .square{
+            width: 100%;}}
+
+    @media (min-width:320px){
+        .square{
+            width: 90%;}}
+
+    @media (min-width:480px){
+        .square{
+            width: 70%;}}
+
+    @media (min-width:520px){
+        .square{
+            width: 65%;}}
+
+    @media (min-width:630px){
+        .square{
+            width: 60%;}}
+
+    @media (min-width:710px){
+        .square{
+            width: 55%;}}
+
+    @media (min-width:768px){
+        .square{
+            width: 50%;}}
+
+    @media (min-width:940px){
+        .square{
+            width: 40%;}}
+
+    @media (min-width:940px){
+        .square{
+            width: 40%;}}
+
+    @media (min-width:1300px){
+        .square{
+            width: 30%;}}
+
+    @media (min-width:1600px){
+        .square{
+            width: 25%;}}
+
+    @media (min-width:2100px){
+        .square{
+            width: 22%;}}
+
+    @media (min-width:2560px){
+        .square{
+            width: 15%;}}
+
+    @media (min-width:3560px){
+        .square{
+            width:7%;}}
+
+.link_site{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;}
+
+    @media (min-width:280px){
+        .link_site{
+            width:90%;}}
+
+    @media (min-width:320px){
+        .link_site{
+            width:90%;}}
+
+    @media (min-width:480px){
+        .link_site{
+            width:80%;}}
+
+    @media (min-width:720px){
+        .link_site{
+            width:80%;}}
+
+    @media (min-width:1280px){
+        .link_site{
+            width:60%;}}
+
+    @media (min-width:1920px){
+        .link_site{
+            width:50%;}}
+
+    @media (min-width:2560px){
+        .link_site{
+            width:70%;}}
+
+    @media (min-width:3560px){
+        .link_site{
+            width:77%;}}
+
+.link_text{
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 5%;}
+
+.link_border{
+    text-align: left;
+    line-height: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color:#d6d6d6;}
+
+.text_chapter{
+    font-size: 30px;
+    color: #454545;
+    text-align: center;
+    cursor: default;
+    margin-top: 10%;}
+
+.text_media{
+    font-size: 18px;
+    color: #6D6D6D;
+    text-align: center;
+    cursor: default;
+    margin-top: -5%;}
+
+    @media (min-width:280px){
+        .text_media{
+            font-size: 16px;}}
+
+    @media (min-width:480px){
+        .text_media{
+            font-size: 18px;}}
+
+.line_maxi{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+	border: none;
+	border-top: 4px dashed #454545;}
+
+    @media (min-width:280px){
+        .line_maxi{
+            width: 90%;}}
+
+    @media (min-width:520px){
+        .line_maxi{
+            width: 80%;}}
+
+    @media (min-width:768px){
+        .line_maxi{
+            width: 70%;}}
+
+.Block_Link{
+    width:100%;}
+
+    @media (min-width:280px){
+        .Block_Link{
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;}}
+
+    @media (min-width:320px){
+        .Block_Link{
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;}}
+
+    @media (min-width:480px){
+        .Block_Link{
+            width:80%;
+            margin-left: auto;
+            margin-right: auto;}}
+
+    @media (min-width:720px){
+        .Block_Link{
+            width:80%;
+            margin-left: auto;
+            margin-right: auto;}}
+
+    @media (min-width:1280px){
+        .Block_Link{
+            width:65%;}}
+
+    @media (min-width:1920px){
+        .Block_Link{
+            width:50%;}}
+
+    @media (min-width:2560px){
+        .Block_Link{
+            width:55%;}}
+
+    @media (min-width:3560px){
+        .Block_Link{
+            width:80%;}}
+
+.text_link{
+    color: 6D6D6D;
+    font-size: 18px;
+    margin-left: 3%;}
+
+.block_border{
+    text-align: left;
+    line-height: 40px;
+    height: 40px;
+    background-color:#ffffff00;
+    outline: 3px solid  #6D6D6D;}
+
+.icon{
+    margin-top: -58px;
+    margin-left: 80%;}
+
+.link{
+    font-size: 18px;
+    color: #454545;
+    margin-top: 5%;
+    margin-left: 0%;
+    text-decoration: underline;}
+
+    @media (min-width:280px){
+        .link{
+            margin-left: 15%;}}
+
+.text_about_max{
+    font-size: 20px;
+    color: #454545;
+    text-align: center;
+    cursor: default;
+    margin-top: 5%;}
+
+.text_about_mini{
+    width: 50%;
+    font-size: 16px;
+    color: #6D6D6D;;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.0;}
+
+    @media (min-width:280px){
+        .text_about_mini{
+            width: 80%;}}
+
+    @media (min-width:520px){
+        .text_about_mini{
+            width: 70%;}}
+
+    @media (min-width:768px){
+        .text_about_mini{
+            width: 60%;}}
+
+.text_reserved{
+    color: #454545;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 18px;
+    cursor: default;}
+
+.photo_block{
+    margin-top: 3%;
+    margin: auto;
+    width: 80%;}

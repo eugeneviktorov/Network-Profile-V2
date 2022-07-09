@@ -1,0 +1,337 @@
+a{
+    text-decoration: none;
+    color: #000000;}
+
+body{margin: 0;}
+
+@keyframes animation-fade{
+    0%{opacity:1}
+    to{opacity:0}}
+
+.OD1{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:rgba(0, 0, 0, 0.651);
+    z-index:99;
+    -webkit-animation:2s animation-fade forwards;
+    animation:2s animation-fade forwards;
+    pointer-events:none}
+
+.ASS1{margin-top: 20px;}
+
+.ASS2{margin-top: 40px;}
+
+.TXT1{
+    margin-top:-10px;
+    font-size:22px;
+    line-height:1.8;
+    letter-spacing:.5px;
+    color:rgb(0, 0, 0);
+    cursor: default;
+    text-align:center}
+
+.TXT2{
+    margin-top:-25px;
+    font-size:14px;
+    line-height:1.8;
+    letter-spacing:.5px;
+    color:#b6b6b6;
+    cursor: default;
+    text-align:center}
+
+.TXT3{
+    margin-top:30px;
+    font-size:14px;
+    line-height:1.8;
+    letter-spacing:.5px;
+    color:#000000;
+    cursor: default;
+    text-align:center}
+
+.TXT4{
+    margin-top:30px;
+    font-size:11px;
+    line-height:1.8;
+    letter-spacing:.5px;
+    color:#000000;
+    cursor: default;
+    text-align:center}
+
+.TXT5{
+    margin-top: 3%;
+    font-size:22px;
+    line-height:1.8;
+    letter-spacing:.5px;
+    color:rgb(0, 0, 0);
+    cursor: default;
+    text-align:center}
+
+@media (min-width:280px){
+.TXT5{margin-top: 20%;}}
+
+@media (min-width:280px){
+.TXT5{margin-top: 15%;}}
+
+@media (min-width:480px){
+.TXT5{margin-top: 10%;}}
+
+@media (min-width:1080px){
+.TXT5{margin-top: 5%;}}
+
+@media (min-width:1920px){
+.TXT5{margin-top: 1%;}}
+
+.TXT6{
+    margin-top:60px;
+    font-size:16px;
+    line-height:1.8;
+    letter-spacing:.5px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    cursor: default;
+    line-height: 70px;}
+
+.TXT7{
+    margin-top:-35px;
+    font-size:12px;
+    line-height:1.8;
+    letter-spacing:.5px;
+    color:rgb(0, 0, 0);
+    cursor: default;
+    text-align:center;}
+
+.res{text-align: center;}
+
+.D1{
+    background-color: #eeeeee;
+    height: 100px;
+    width: 100%;}
+
+.Eas1{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    z-index: 990;
+    text-align: center;
+    margin: 3%;
+    background-color:rgba(255, 0, 0, 0);}
+
+@media (min-width:150px){
+    .Eas1{height:200px}}
+
+@media (min-width:280px){
+    .Eas1{height:150px}}
+
+@media (min-width:320px){
+    .Eas1{height:200px}}
+
+@media (min-width:480px){
+    .Eas1{height:250px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+@media (min-width:568px){
+    .Eas1{height: 250px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+@media (min-width:768px){
+    .Eas1{height: 250px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+@media (min-width:1080px){
+    .Eas1{height: 250px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+@media (min-width:1080px){
+    .Eas1{height: 250px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+@media (min-width:1440px){
+    .Eas1{height: 250px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+@media (min-width:1920px){
+    .Eas1{height: 250px;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;}}
+
+.Eas2{
+    position:relative;
+    border-radius: 5px 5px 5px 5px;
+    width:100%;
+    overflow:hidden}
+
+.Eas2 img{
+    -webkit-transition:all 1.9s cubic-bezier(.0,0,.0,1);
+    transition:all 1.9s cubic-bezier(.0,0,.0,1)}
+
+.Eas2:hover img{
+    transform:scale(1.1)}
+
+.Eas3{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);}
+
+@media (min-width:280px){
+.Eas3 { top: 50%;
+        left: 0%;}}
+
+@media (min-width:280px){
+.Eas4{width:150%}}
+
+.Eas5{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    width:100%;
+    padding-right:30px;
+    padding-left:30px;
+    max-width:80%;
+    text-align:center;
+    z-index:999}
+
+@media (min-width:280px){
+    .Eas5{
+        padding-right:5px;
+        padding-left:5px}}
+
+@media (min-width:320px){
+    .Eas5{
+        padding-right:10px;
+        padding-left:10px}}
+    
+@media (min-width:768px){
+    .Eas5{
+        padding-right:70px;
+        padding-left:70px}}
+
+@media (min-width:1280px){
+    .Eas5{
+        padding-right:130px;
+        padding-left:130px}}
+
+@media (min-width:1440px){
+    .Eas5{
+        width:1180px;
+        margin-right:auto;
+        margin-left:auto;
+        padding-left:0;
+        padding-right:0}}
+
+@media (min-width:1680px){
+    .Eas5{width:1560px}}
+
+.Eas6{
+    font-size:18px;
+    color:rgb(255, 255, 255)}
+
+@media (min-width:200px){
+    .Eas6{
+        letter-spacing:.48px;
+        line-height:1.3;
+        font-size:20px}}
+
+@media (min-width:280px){
+    .Eas6{
+        letter-spacing:.48px;
+        line-height:1.3;
+        font-size:20px}}
+
+@media (min-width:320px){
+    .Eas6{
+        letter-spacing:.48px;
+        line-height:1.4;
+        font-size:20px}}
+
+@media (min-width:480px){
+    .Eas6{
+        letter-spacing:.48px;
+        line-height:1.2;
+        font-size:20px}}
+
+@media (min-width:768px){
+    .Eas6{
+        letter-spacing:.48px;
+        line-height:1.7;
+        font-size:20px}}
+
+@media (min-width:1024px){
+    .Eas6{font-size:20px}}
+
+@media (min-width:1680px){
+    .Eas6{
+        letter-spacing:.27px;
+        font-size:20px}}
+
+.C2{width:100%;}
+
+@media (min-width:280px){
+.C2{width:90%;
+    margin-left: auto;
+    margin-right: auto;}}
+
+@media (min-width:320px){
+.C2{width:90%;
+    margin-left: auto;
+    margin-right: auto;}}
+
+@media (min-width:480px){
+.C2{width:80%;
+    margin-left: auto;
+    margin-right: auto;}}
+
+@media (min-width:720px){
+.C2{width:80%;
+    margin-left: auto;
+    margin-right: auto;}}
+
+@media (min-width:1280px){
+.C2{width:50%;}}
+
+@media (min-width:1920px){
+.C2{width:40%;}}
+
+@media (min-width:2560px){
+.C2{width:30%;}}
+
+@media (min-width:3560px){
+.C2{width:15%;}}
+
+.TXTQ{
+    color: rgb(0, 0, 0);
+    font-size: 18px;}
+
+.C6{
+    text-align: center;
+    line-height: 45px;
+    height: 50px;
+    background-color:#ebeaff;
+    border-radius: 30px 30px 30px 30px;
+    transition: 0.6s all;}
+
+.C6:hover{background-color: #d7d5ff;}
+
+::-webkit-scrollbar {width: 10px;}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: #dddddd;}
