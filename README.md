@@ -14,3 +14,4 @@
 ### V2.3 / Created a block with author's projects
 ### V2.4 / Redesigned icon system and creation of a manifest for smartphones.
 ### V2.5 / Added a block with a change to a dark theme, and a translation into Russian.
+### V2.6 / New logo.
